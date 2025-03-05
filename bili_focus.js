@@ -8,6 +8,10 @@
 // @icon         
 // @grant        none
 // @license      MIT
+// @homepageURL  https://github.com/zhqs678/bilibili_focus
+// @downloadURL  https://github.com/zhqs678/bilibili_focus/blob/main/bili_focus.js
+// @updateURL    https://github.com/zhqs678/bilibili_focus/blob/main/bili_focus.js
+
 
 // ==/UserScript==
 
@@ -30,6 +34,13 @@
             ".video-tag-container",
             ".tag-panel",
             ".ad-report ad-floor-exp right-bottom-banner",
+          //  ".m-video",// 移动端
+            ".m-navbar",
+            ".m-video-main-launchapp",
+            ".openapp-btn",
+            ".m-open-app",
+            ".m-footer",
+          //  ".video-natural-search",
             ".up-panel-container"//推荐
         ];
 
